@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Cache Enhancement using Victim Cache and Skewed associativ" company="IIT ROORKEE" webLink="" view-date="2019-09-18" view-index="2" gantt-divider-location="300" resource-divider-location="356" version="2.8.10" locale="en_IN">
+    <description><![CDATA[Cache Enhancement using Victim Cache and Skewed associativ]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <timeline><![CDATA[4]]></timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="230" order="0"/>
+        <field id="1" name="Default role" width="122" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="4" name="selection of project" color="#8cb6ce" meeting="false" start="2019-09-26" duration="4" complete="100" thirdDate="2019-09-26" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[We chose one project from the given list of ideas and projects....
+]]></notes>
+        </task>
+        <task id="66" name="abstract writting" color="#8cb6ce" meeting="false" start="2019-10-02" duration="1" complete="100" thirdDate="2019-09-24" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[The Ece students wrote the abstract for skewed associative cache while cse students wrote for victim cache]]></notes>
+        </task>
+        <task id="7" name="Study Period" color="#8cb6ce" meeting="false" start="2019-10-03" duration="5" complete="75" thirdDate="2019-10-03" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[We went through some research papers of victim and skewed associative cache .]]></notes>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Integration of everyone's contribution" color="#8cb6ce" meeting="false" start="2019-10-10" duration="3" complete="100" thirdDate="2019-10-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[We held meetings to integrate all our work.
+]]></notes>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Discussion of algorithm" color="#8cb6ce" meeting="false" start="2019-10-15" duration="4" complete="100" thirdDate="2019-10-15" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[The ECE students reasearched for the skewed associative algo's while CSE students researched for victim cache algorithms. 
+]]></notes>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="Writing code" color="#8cb6ce" meeting="false" start="2019-10-21" duration="4" complete="80" thirdDate="2019-10-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[we implemented algo for skewed associative  , in C and victim cache in C++. ]]></notes>
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" name="Debugging" color="#8cb6ce" meeting="false" start="2019-10-25" duration="3" complete="24" thirdDate="2019-10-25" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[we degugged all the errors. ]]></notes>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="Report and gantt chart preperation." color="#8cb6ce" meeting="false" start="2019-10-30" duration="1" complete="100" thirdDate="2019-10-30" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Each of us contributed different sections of Report and ECE students prepared the gantt chart.]]></notes>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="1" name="Anshul Dutt Sharma" function="Default:1" contacts="asharma4@ec.iitr.ac.in" phone="9810928467"/>
+        <resource id="9" name="Ankur Sharma" function="Default:1" contacts="asharma3@ec.iitr.ac.in" phone="9801393025"/>
+        <resource id="2" name="Kratya Raipuria" function="Default:1" contacts="kraipuria@ec.iitr.ac.in" phone="6265332139"/>
+        <resource id="5" name="Ayush shrivastava" function="Default:1" contacts="ashrivastava@ec.iitr.ac.in" phone="7415656211"/>
+        <resource id="6" name="Diksha choudhary" function="Default:1" contacts="diksha@cs.iitr.ac.in" phone="9929155847"/>
+        <resource id="7" name="Karan singh" function="Default:1" contacts="diksha@cs.iitr.ac.in" phone="9793684864"/>
+        <resource id="10" name="Khushi jindal" function="Default:1" contacts="khushi@cs.iitr.ac.in" phone="7710744295"/>
+    </resources>
+    <allocations>
+        <allocation task-id="4" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="9" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="9" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="9" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="9" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="9" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="9" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="9" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="5" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="66" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="6" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="6" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="7" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="7" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="7" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="7" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="10" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="10" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="10" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="10" function="Default:1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
