@@ -1,0 +1,270 @@
+%%%%%%%%%%%%  Generated using docx2latex.com  %%%%%%%%%%%%%%
+
+%%%%%%%%%%%%  v2.0.0-beta  %%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage[normalem]{ulem}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[backend=biber,
+style=numeric,
+sorting=none,
+isbn=false,
+doi=false,
+url=false,
+]{biblatex}\addbibresource{bibliography.bib}
+
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{wasysym}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+\usepackage{ragged2e}
+\usepackage[svgnames,table]{xcolor}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{changepage}
+\usepackage{setspace}
+\usepackage{hhline}
+\usepackage{multicol}
+\usepackage{tabto}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[hidelinks]{hyperref}
+\usetikzlibrary{shapes.symbols,shapes.geometric,shadows,arrows.meta}
+\tikzset{>={Latex[width=1.5mm,length=2mm]}}
+\usepackage{flowchart}\usepackage[paperheight=11.69in,paperwidth=8.27in,left=1.0in,right=1.0in,top=1.0in,bottom=1.0in,headheight=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\TabPositions{0.5in,1.0in,1.5in,2.0in,2.5in,3.0in,3.5in,4.0in,4.5in,5.0in,5.5in,6.0in,}
+
+\urlstyle{same}
+
+
+ %%%%%%%%%%%%  Set Depths for Sections  %%%%%%%%%%%%%%
+
+% 1) Section
+% 1.1) SubSection
+% 1.1.1) SubSubSection
+% 1.1.1.1) Paragraph
+% 1.1.1.1.1) Subparagraph
+
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+
+ %%%%%%%%%%%%  Set Depths for Nested Lists created by \begin{enumerate}  %%%%%%%%%%%%%%
+
+
+\setlistdepth{9}
+\renewlist{enumerate}{enumerate}{9}
+		\setlist[enumerate,1]{label=\arabic*)}
+		\setlist[enumerate,2]{label=\alph*)}
+		\setlist[enumerate,3]{label=(\roman*)}
+		\setlist[enumerate,4]{label=(\arabic*)}
+		\setlist[enumerate,5]{label=(\Alph*)}
+		\setlist[enumerate,6]{label=(\Roman*)}
+		\setlist[enumerate,7]{label=\arabic*}
+		\setlist[enumerate,8]{label=\alph*}
+		\setlist[enumerate,9]{label=\roman*}
+
+\renewlist{itemize}{itemize}{9}
+		\setlist[itemize]{label=$\cdot$}
+		\setlist[itemize,1]{label=\textbullet}
+		\setlist[itemize,2]{label=$\circ$}
+		\setlist[itemize,3]{label=$\ast$}
+		\setlist[itemize,4]{label=$\dagger$}
+		\setlist[itemize,5]{label=$\triangleright$}
+		\setlist[itemize,6]{label=$\bigstar$}
+		\setlist[itemize,7]{label=$\blacklozenge$}
+		\setlist[itemize,8]{label=$\prime$}
+
+\setlength{\topsep}{0pt}\setlength{\parskip}{9.96pt}
+\setlength{\parindent}{0pt}
+
+ %%%%%%%%%%%%  This sets linespacing (verticle gap between Lines) Default=1 %%%%%%%%%%%%%%
+
+
+\renewcommand{\arraystretch}{1.3}
+
+
+%%%%%%%%%%%%%%%%%%%% Document code starts here %%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\begin{Center}
+{\fontsize{36pt}{43.2pt}\selectfont CSN Project\par}
+\end{Center}\par
+
+\begin{Center}
+{\fontsize{26pt}{31.2pt}\selectfont Implementation $\&$  Comparison of Victim Cache and Skewed associative Cache\par}
+\end{Center}\par
+
+{\fontsize{22pt}{26.4pt}\selectfont Group members:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Diksha(Cse)18114019\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Karan Singh(Cse)18114035\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Khushi(Cse)18114040\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Anshul Dutt Sharma(Ece)18116016\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Ankur Sharma(Ece)18116012\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Ayush Shrivastava(Ece)18116020\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Kratya Raipuria(Ece)18116040\par}\par
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+{\fontsize{20pt}{24.0pt}\selectfont 1.Description of the topic:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont  Our topic deals with various caching methods ,exploiting different types of associativity ,and comparing them ,the two caches being victim cache and skewed associative cache .We coded in cpp to evaluate the miss rates after the direct mapped cache is used with a victim cache and we also referred to various research papers.\par}\par
+
+
+\vspace{\baselineskip}
+{\fontsize{22pt}{26.4pt}\selectfont 2. Abstract:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont As processors become faster, memory hierarchy becomes a serious bottleneck. In recent years memory speeds have failed to keep up with processor speeds and the gap has been steadily increasing. Cache performance has become a critical parameter in system performance.\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Victim caches are small fully associative caches placed between a cache and its refill path. This results in the misses served by the victim caches, having only a very small miss penalty, typically one cycle, as opposed to several cycles for main memory. Small victim caches from one to five line sizes are sufficient to significantly improve the effective cache hit rate. This improvement however is sub-linear in the size of the victim cache and can be poorer for set associative caches.\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont On the other hand, we talk about Skewed-associative cache, A two-way skewed-associative cache has the same hardware complexity as a two-way set-associative cache, yet simulations show that it typically exhibits the same hit ratio as a four-way set associative cache with the same size. Thus, we can say skewed-associative caches must be preferred to set-associative caches.\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont And hence comes the major concern of our project, comparing different factors and establishing which cache design is more preferable among Victim and Set-associative cache, under given conditions. \par}\par
+
+{\fontsize{22pt}{26.4pt}\selectfont 3.Center of interest:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont We found this topic interesting because we got to understand how associativity affects the cache efficiency and performances ,how we can improve it by adding other type of cache in between ,we got to understand how conflict misses work and to implement ,we got to use our coding skills and thus, we combined our theoretical knowledge about the topic ,gained with the help of various research papers ,with practical applications.\par}\par
+
+{\fontsize{18pt}{21.6pt}\selectfont 4. {\fontsize{22pt}{26.4pt}\selectfont Discussions{\fontsize{18pt}{21.6pt}\selectfont :\par}\par}\par}\par
+
+{\fontsize{18pt}{21.6pt}\selectfont 4.1 Victim cache:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Victim caching is a hardware technique to improve performance of caches proposed by Norman Jouppi. As mentioned in his paper: As hardware architecture and technology advanced, processor performance and frequency grew much faster than memory cycle times, leading to a large gap in performance. The problem of increasing memory latency, relative to processor speed, has been dealt with by adding high speed cache memory. Direct-mapped caches have faster access time than set-associative caches. However, for a direct-mapped cache if multiple cache blocks in the memory map to same cache-line they end up evicting each other when anyone of them is accessed. This is known as the cache conﬂict problem. This problem is resolved by increasing the associativity of the cache. But there is a limit to which associativity can be increased owing to the complexity in its implementation. Thus, for solving the cache conﬂict problem for a cache with limited associativity victim cache is employed. Small miss caches of 2 to 5 entries are shown to be very eﬀective in removing mapping conﬂict misses in ﬁrst-level direct-mapped caches. Victim caching is an improvement to miss caching.\par}\par
+
+{\fontsize{18pt}{21.6pt}\selectfont 4.2 Skewed Associative Cache:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont There is an inherent trade off between direct mapped caches and associative caches. Direct mapped caches improve the clock of caches since they don’t have to choose among the cache lines (single cache line) but at the same time suffers from high miss rate. On the other hand, set-associative caches provide has relatively less miss rate by providing flexibility to place in different cache lines, hence less conflict misses but lose out on clock frequency due to the multiplexor used for choosing among the multiple cache lines.\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Thus, a new design skewed-associative caches is discussed which helps in improving miss rate while not compromising with the frequency at the same time.\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont Although, associativity reduces conflict misses there still can be many of them even in set-associative cache due to temporal and spatial locality. According to this principle, addresses in different sets should be mapped in a different way. With this the probability of conflict in all the sets at the same time reduces. Talking specifically, in skewed-associative caches, different hashing functions are used at the same time for indexing the distinct cache banks. Still, there\ are some basic properties of skewing functions to be kept in mind to obtain good hit ratio like Equitability, Inter-bank and Local Dispersion, Simplicity in Hardware etc.   \par}\par
+
+{\fontsize{18pt}{21.6pt}\selectfont 5{\fontsize{22pt}{26.4pt}\selectfont . Description of methods used:\par}\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont The implementation of our project was carried out with the help of our prior knowledge of programming languages , cpp in particular.\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont In our code, we have to give input for the total main memory , size of L1 cache, size of cache that we are going to consider. Now, we defined the variable for query which is the address ,we are going to search and in relation to which ,the hit and miss rates will be considered. Now, after defining and calculating all the valid bits , the tag and index of L1 and caches ,if the address of query is in the L1 cache ,its hit rate is increased ,otherwise ,we search in the cache ,if it is present there, the address bit ,the valid bit are swapped by that of l1 cache ,however ,if the address is not present in the cache either ,it is considered a miss for it too and the address is fetched from main memory ,in the code ,we simply copied the value of query to address in cache, after fetching ,the swapping process is done again. After summing up the hit rates and miss rates for l1 and cache for all required addresses of query input string, we get the results, which can further be compared.\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont This is our basic approach for the code for Victim as well as Skewed-Associative Cache.\par}\par
+
+
+\vspace{\baselineskip}
+{\fontsize{22pt}{26.4pt}\selectfont 6. Results:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont After implementing and comparing both Victim Cache and Skewed-Associative Cache for common factors like Hit/Miss Ratio and Average Memory Access Time, we got to some general results that can be graphically represented for both as below,\par}\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{figure}[H]	\begin{subfigure}		\includegraphics[width=0.45\textwidth]{./media/image1.png}
+	\end{subfigure}
+~	\begin{subfigure}		\includegraphics[width=0.45\textwidth]{./media/image2.png}
+	\end{subfigure}
+~
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 Ends here %%%%%%%%%%%%%%%%%%%%
+
+{\fontsize{16pt}{19.2pt}\selectfont For victim cache, results for AMAT with and without victim cache for varying L1 cache size and associativity are as,\par}\par
+
+
+\vspace{\baselineskip}
+{\fontsize{16pt}{19.2pt}\selectfont We can even compare Miss ratio for direct mapped wit and without victim cache (here Selective Victim Cache is included as well which is a further better way to improve the performance),\par}\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 2 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=3.64in,height=2.68in]{./media/image3.png}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 2 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 3 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+\advance\leftskip 1.27in		\includegraphics[width=3.59in,height=3.15in]{./media/image4.png}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 3 Ends here %%%%%%%%%%%%%%%%%%%%
+
+{\fontsize{16pt}{19.2pt}\selectfont Similarly, AMAT for Set-Associative Cache can also be compared in a graphical represented as given,\par}\par
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+{\fontsize{22pt}{26.4pt}\selectfont 7.Refrences:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont 4.1 Research papers referred:\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont a.  A Agarwal and D Pudar. Column-associative caches: A technique for reducing the miss rate of direct-mapped caches\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont  b. Norman P Jouppi. Improving direct-mapped cache performance by the addition of a small fully-associative cache and prefetch buffers. \par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont c. Dimitrios Stiliadis. Selective victim caching : A method to improve the performance of direct-mapped caches. \par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont d.\par} {\fontsize{16pt}{19.2pt}\selectfont Andre Seznec:\par} {\fontsize{16pt}{19.2pt}\selectfont A case for two-way skewed-associative caches.\par}\par
+
+{\fontsize{16pt}{19.2pt}\selectfont e. Francois Bodin, Andre Seznec: Skewed Associative caches.\par}\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 4 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{figure}[H]	\begin{subfigure}		\includegraphics[width=0.45\textwidth]{./media/image5.jpeg}
+	\end{subfigure}
+~	\begin{subfigure}		\includegraphics[width=0.45\textwidth]{./media/image6.jpeg}
+	\end{subfigure}
+~
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 4 Ends here %%%%%%%%%%%%%%%%%%%%
+
+{\fontsize{22pt}{26.4pt}\selectfont 8. GANTT Chart:\par}\par
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\printbibliography
+\end{document}
