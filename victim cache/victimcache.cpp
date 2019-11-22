@@ -21,7 +21,7 @@ int main()
 	cin>>l1_cache_size;
 	
 	//Size Of Victim Cache
-	cout<<"Enter Size of Victim Cache in Bytes : ";
+	cout<<"Enter the  Size of Victim Cache in Bytes : ";
 	ll victim_cache_size;
 	cin>>victim_cache_size;
 	
