@@ -52,7 +52,7 @@ int main()
 	ll main_memory[lines_in_main_memory][block_size];
 
 
-	//Initializing Main Memory(can be any integer less than 10^18)
+	//Initializing Main Memory
 	for(ll i=0;i<lines_in_main_memory;i++)
 		for(ll j=0;j<block_size;j++){
 			main_memory[i][j]=j+i*block_size;
