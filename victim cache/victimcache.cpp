@@ -100,7 +100,7 @@ int main()
 	string query;
 	ifstream fp;
 	fp.open("input.txt");
-	cout<<"Address And Values Fetched are the Following "<<endl;
+	cout<<"Address And Values Fetched is the Following "<<endl;
 	while(getline(fp,query))
 	{
 		cout<<"Address  : "<<query<<endl;
